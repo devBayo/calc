@@ -45,7 +45,7 @@ body {
   margin-right: 1rem;
 }
 
-input[type='radio'] {
+/* input[type='radio'] {
   position: relative;
 }
 
@@ -54,7 +54,7 @@ input::after {
   color: #fff;
   position: absolute;
   top: -20px;
-}
+} */
 
 .grid {
   display: grid;
@@ -86,7 +86,8 @@ input::after {
   border-radius: 1.1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  column-gap: 2rem;
+  row-gap: 1.7rem;
 }
 
 .btn {
