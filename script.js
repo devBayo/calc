@@ -26,7 +26,6 @@ document.querySelectorAll('.num').forEach((numberEl) => {
     if (!operatorClicked) {
       // An operator click signifies the end of the first number
       if (equalToClicked) num1 = '';
-
       !num1 ? (num1 = numberEl.textContent) : (num1 += numberEl.textContent);
       screen.textContent = num1;
     } else {
