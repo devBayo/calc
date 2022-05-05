@@ -1,7 +1,7 @@
 'use strict';
 
 // clear console
-let operator, num1, num2, output;
+let operator, num1, num2;
 let operatorClicked = false;
 let equalToClicked = false;
 
