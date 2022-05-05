@@ -2,3 +2,4 @@ Check for multiple decimal points
 Can't divide by zero
 Theme
 disabled theme for now
+Refactor codes
